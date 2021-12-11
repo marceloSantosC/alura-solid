@@ -1,4 +1,4 @@
-package br.com.alura.rh.service;
+package br.com.alura.rh.service.reajuste;
 
 import br.com.alura.rh.model.Funcionario;
 
@@ -9,6 +9,7 @@ import java.util.Optional;
 
 public class ReajusteService {
 
+    // Open closed + Dependency injection
     private final List<ValidacaoReajuste> validacoesReajuste;
 
     public ReajusteService(List<ValidacaoReajuste> validacaoReajustes) {
